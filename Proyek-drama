@@ -1,0 +1,47 @@
+# Proyek Drama Kartun 3D Chibi: Ngaji Alfiyah Ibnu Malik
+
+Video drama pendek edukatif (Reels/TikTok 9:16, durasi 45-60 detik) tentang Ayah dan Ghaitsa mengaji Alfiyah Ibnu Malik bersama. Tujuan: membuat nahwu terasa dekat, hangat, dan mudah dipahami.
+
+## Struktur Folder
+- `referensi_foto/` : foto referensi karakter (Ayah dan Ghaitsa)
+- `naskah/` : naskah per episode, lengkap dengan bait Arab berharakat dan terjemahan
+- `prompts/` : prompt gambar per adegan, file `episode-[nomor]-prompts.txt`
+- `output/` : video akhir 1080x1920 siap unggah
+
+## Karakter (3D chibi)
+
+### Ayah
+- Guru sekaligus ayah: sabar, hangat, humor ringan
+- Wajah bulat, kulit sawo cerah, mata besar cokelat tua berkilau
+- Alis hitam tebal, kumis tipis, jenggot kecil di dagu
+- Peci hitam tinggi, kaos putih lengan pendek
+- Ekspresi: senyum tipis yang hangat
+
+### Ghaitsa
+- Murid sekaligus anak: penasaran, kritis, polos
+- Wajah bulat, pipi merona merah muda, mata besar cokelat berbulu mata lentik
+- Hijab abu-abu muda panjang menutup dada, ada lipatan bordir di dahi
+- Ekspresi: penasaran, bibir mungil agak manyun
+
+### Latar
+- Ruang ngaji pesantren: papan tulis putih, tirai biru, tumpukan kitab warna-warni di rak kayu, lantai keramik krem, cahaya hangat
+
+## Aturan Penulisan Naskah
+1. Alur: masalah sehari-hari Ghaitsa -> bait Alfiyah muncul sebagai solusi atau analogi -> penutup hangat.
+2. Bahasa Indonesia sehari-hari; istilah nahwu tetap Arab disertai penjelasan singkat.
+3. Satu episode membahas satu bait atau kaidah.
+4. Dialog pendek, mudah diucapkan sebagai voice-over.
+5. Bait Arab wajib berharakat lengkap dan dicocokkan dengan kitab sebelum direkam.
+
+## Aturan Prompt Gambar
+1. Satu prompt detail berbahasa Inggris untuk setiap adegan, disimpan di `prompts/episode-[nomor]-prompts.txt`.
+2. Gaya wajib di setiap prompt: 3D chibi cartoon, big expressive eyes, warm golden hour lighting, cozy pesantren ngaji room, soft depth of field, vertical 9:16.
+3. Tulis ulang ciri tetap karakter di setiap prompt (Ayah: peci hitam, jenggot kecil; Ghaitsa: hijab abu-abu, pipi merona).
+4. Jangan menulis teks Arab di dalam prompt gambar. Tambahkan tulisannya di aplikasi edit video.
+
+## Alur Produksi
+1. Tulis naskah (`naskah/`)
+2. Buat prompt per adegan (`prompts/`)
+3. Buat gambar, lalu ubah jadi klip video pendek
+4. Rekam suara dialog dan bait Arab
+5. Susun di aplikasi edit video, ekspor 1080x1920 (`output/`)
